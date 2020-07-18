@@ -1,0 +1,27 @@
+@import '../../utils/variables';
+.footer-list {
+  display: flex;
+  margin-top: 20px;
+  align-items: center;
+  justify-content: center;
+}
+.footer-input {
+  width: 358px;
+  height: 50px;
+  border: 1px solid $footer-input-border;
+  border-radius: 4px;
+  padding-left: 16px;
+  padding-right: 20px;
+  color: $primary-white-color;
+  background-color: $footer-input-background;
+}
+.footer-margin {
+  margin-left: 12px;
+}
+.join {
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 1.14;
+  text-transform: uppercase;
+  color: $primary-white-color;
+}

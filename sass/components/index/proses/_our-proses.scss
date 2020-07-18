@@ -1,0 +1,19 @@
+.container-our-proses {
+  padding-top: 94px;
+}
+.what-we-do:not(:last-child) {
+  margin-right: 30px;
+}
+
+.what-we-do-icons {
+  display: flex;
+  background-color: $what-we-do-color;
+  height: 120px;
+  border-radius: 4px;
+  align-items: center;
+  justify-content: center;
+}
+
+.icons-margin .what-we-do {
+  width: 270px;
+}

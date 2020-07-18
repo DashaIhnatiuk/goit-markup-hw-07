@@ -1,0 +1,13 @@
+@import '../../utils/variables';
+
+.footer-icon {
+  display: flex;
+  align-items: center;
+}
+.year {
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 2;
+  text-align: center;
+  color: $secondary-text-color;
+}

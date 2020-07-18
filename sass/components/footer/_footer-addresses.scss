@@ -1,0 +1,25 @@
+@import '../../utils/variables';
+.footer1-margin {
+  margin-top: 65px;
+  margin-bottom: 55px;
+}
+.web-studio {
+  margin-bottom: 8px;
+}
+.address {
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 1.71;
+  color: $primary-white-color;
+  font-style: normal;
+  width: 231px;
+  margin-right: 70px;
+}
+.info {
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 1.71;
+  color: $secondary-text-color;
+  text-decoration: none;
+  font-style: normal;
+}

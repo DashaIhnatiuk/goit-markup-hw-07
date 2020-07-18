@@ -1,0 +1,32 @@
+@import '../../../utils/variables';
+.container-our-clients {
+  padding-top: 94px;
+  padding-bottom: 107px;
+}
+.client {
+  margin-right: 30px;
+}
+.client-icons-item {
+  display: flex;
+  width: 170px;
+  height: 90px;
+  justify-content: center;
+  align-items: center;
+
+  border: 1px solid #afb1b8;
+  border-radius: 4px;
+  fill: $people-icons;
+
+  &:hover {
+    fill: $accent-color;
+    border: 1px solid $accent-color;
+    transition-duration: $duration;
+    transition-timing-function: $cubic;
+  }
+  &:focus {
+    fill: $accent-color;
+    border: 1px solid $accent-color;
+    transition-duration: $duration;
+    transition-timing-function: $cubic;
+  }
+}
